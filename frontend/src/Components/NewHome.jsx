@@ -190,7 +190,7 @@ const Home = () => {
             <div 
               className="hero-slide d-flex align-items-center"
               style={{ 
-                backgroundImage: `linear-gradient(rgba(0, 33, 71, 0.8), rgba(0, 33, 71, 0.8)), url(https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80)`,
+                backgroundImage: `linear-gradient(rgba(0, 33, 71, 0.8), rgba(0, 33, 71, 0.8)), url(images/4.jpeg)`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 height: '100vh'
@@ -216,7 +216,7 @@ const Home = () => {
             <div 
               className="hero-slide d-flex align-items-center"
               style={{ 
-                backgroundImage: `linear-gradient(rgba(0, 33, 71, 0.8), rgba(0, 33, 71, 0.8)),url(https://images.unsplash.com/photo-1580554530778-ca36943938b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80)
+                backgroundImage: `linear-gradient(rgba(0, 33, 71, 0.8), rgba(0, 33, 71, 0.8)),url(/images/6a.jpeg)
 `,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
