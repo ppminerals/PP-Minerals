@@ -82,13 +82,13 @@ const Home = () => {
       description: "Brings extensive industry expertise and strategic vision to the company, ensuring operational excellence across all mining projects."
     },
     {
-      name: "Prithivi Raj",
+      name: "Prathviraj  Raj",
       role: "Co-Founder",
       image: "/images/prithvi.jpg",
       description: "Leads our technical operations with deep knowledge of mining processes and commitment to implementing innovative technologies."
     },
     {
-      name: "Rytham Jain",
+      name: "Rhythm Jain",
       role: "Director & Company Secretary",
       image: "/images/rytham.jpeg",
       description: "She is a key person in PP Minerals. A company secretary with qualifications in Law and business management. She also serves as director in Nanda Fincap and Partner in Nanda capital holding."
