@@ -25,7 +25,7 @@ const Services = () => {
     },
     {
       title: "Supply & Distribution",
-      description: "Reliable logistics network ensuring timely delivery of minerals across domestic and international markets.",
+      description: "Reliable logistics network ensuring timely delivery of minerals in India.",
       icon: <FaTruck size={30} className="text-warning" />,
       details: "With a robust logistics network and strategic partnerships, we guarantee timely delivery of minerals to clients worldwide. Our supply chain solutions are tailored to meet specific client requirements."
     },
