@@ -285,7 +285,7 @@ const Home = () => {
           style={{
             backgroundColor: "transparent",
             border: "2px solid #BFA14A",
-            color: "#BFA14A",
+            color: "#ffffffff",
             fontWeight: "600",
             letterSpacing: "1px",
           }}
@@ -372,7 +372,7 @@ const Home = () => {
                 backgroundColor: "#0D1B4C",
                 color: "#fff",
               }}
-              className="mb-3 px-3 py-2"
+              className="mb-3 px-3 py-2 rounded-pill"
             >
               OUR SPECIALTY
             </Badge>
@@ -417,7 +417,7 @@ const Home = () => {
           style={{
             backgroundColor: "transparent",
             border: "2px solid #BFA14A",
-            color: "#BFA14A",
+            color: "#ffffffff",
             fontWeight: "600",
             letterSpacing: "1px",
           }}
@@ -506,7 +506,14 @@ const Home = () => {
         <Container>
           <Row className="justify-content-center mb-5">
             <Col lg={8} className="text-center">
-              <Badge bg="warning" className="mb-3 px-3 py-2">WHY CHOOSE US</Badge>
+              <Badge style={{
+            backgroundColor: "transparent",
+            border: "2px solid #BFA14A",
+            color: "#ffffffff",
+            fontWeight: "600",
+            letterSpacing: "1px",
+          }}
+           className="mb-3 px-3 py-2 rounded-pill">WHY CHOOSE US</Badge>
               <h2 className="fw-bold mb-3">Excellence in Every Operation</h2>
               <p className="text-light">
                 Our commitment to quality, safety, and sustainability makes us the preferred choice
@@ -587,7 +594,7 @@ const Home = () => {
         <Container>
           <Row className="justify-content-center mb-5">
             <Col lg={8} className="text-center">
-              <Badge bg="primary" className="mb-3 px-3 py-2">OUR OPERATIONS</Badge>
+              <Badge bg="primary" className="mb-3 px-3 py-2 rounded-pill">OUR OPERATIONS</Badge>
               <h2 className="fw-bold mb-3 text-primary">Mining Excellence in Action</h2>
               <p className="text-muted">
                 A glimpse into our mining operations and facilities
@@ -638,7 +645,7 @@ const Home = () => {
       <Col lg={8} className="text-center">
         <Badge
           style={{ backgroundColor: "#BFA14A", color: "#fff" }}
-          className="mb-3 px-3 py-2 fs-6 shadow-sm text-uppercase"
+          className="mb-3 px-3 py-2 fs-6 shadow-sm text-uppercase rounded-pill"
         >
           Our Leadership
         </Badge>
@@ -698,7 +705,7 @@ const Home = () => {
         <Container>
           <Row className="justify-content-center mb-5">
             <Col lg={8} className="text-center">
-              <Badge bg="primary" className="mb-3 px-3 py-2">OUR LOCATION</Badge>
+              <Badge bg="primary" className="mb-3 px-3 py-2 rounded-pill">OUR LOCATION</Badge>
               <h2 className="fw-bold mb-3 text-primary">Visit Our Operations</h2>
               <p className="text-muted">
                 Located in the mineral-rich region of Pinchhala, Madhya Pradesh
