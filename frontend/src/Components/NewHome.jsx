@@ -273,101 +273,233 @@ const Home = () => {
       </div>
 
       {/* About Preview */}
-      <section className="py-5 bg-light">
-        <Container>
-          <Row className="justify-content-center">
-            <Col lg={10} className="text-center">
-              <Badge bg="warning" className="mb-3 px-3 py-2">ABOUT US</Badge>
-              <h2 className="fw-bold mb-4 text-primary">Leading the Mining Industry Since 2011</h2>
-              <p className="lead text-muted mb-4">
-                At PP Minerals, we specialize in reliable and sustainable mineral solutions, 
-                serving industries with excellence and trust for over a decade. Our commitment to 
-                innovation, safety, and environmental responsibility sets us apart.
-              </p>
-              <div className="d-flex justify-content-center gap-4 flex-wrap mb-5">
-                {achievements.map((item, index) => (
-                  <div key={index} className="bg-white p-4 rounded shadow-sm text-center achievement-item">
-                    <div className="mb-3 achievement-icon">
-                      {item.icon}
-                    </div>
-                    <h3 className="text-warning fw-bold">{item.value}</h3>
-                    <p className="mb-0 text-dark">{item.label}</p>
-                  </div>
-                ))}
+      <section
+  className="py-5"
+  style={{ backgroundColor: "#f9f9f9" }}
+>
+  <Container>
+    <Row className="justify-content-center">
+      <Col lg={10} className="text-center">
+        {/* Section Heading */}
+        <Badge
+          style={{
+            backgroundColor: "transparent",
+            border: "2px solid #BFA14A",
+            color: "#BFA14A",
+            fontWeight: "600",
+            letterSpacing: "1px",
+          }}
+          className="mb-3 px-3 py-2 rounded-pill"
+        >
+          ABOUT US
+        </Badge>
+        <h2
+          className="fw-bold mb-4"
+          style={{ color: "#0D1B4C" }}
+        >
+          Leading the Mining Industry Since 2011
+        </h2>
+        <p className="lead mb-4" style={{ color: "#555", lineHeight: "1.7" }}>
+          At{" "}
+          <span style={{ color: "#BFA14A", fontWeight: 600 }}>
+            PP Minerals
+          </span>
+          , we specialize in reliable and sustainable mineral solutions,
+          serving industries with excellence and trust for over a decade.
+          Our commitment to{" "}
+          <span style={{ color: "#0D1B4C", fontWeight: 600 }}>
+            innovation, safety, and environmental responsibility
+          </span>{" "}
+          sets us apart.
+        </p>
+
+        {/* Achievements */}
+        <div className="d-flex justify-content-center gap-4 flex-wrap mb-5">
+          {achievements.map((item, index) => (
+            <div
+              key={index}
+              className="achievement-item p-4 rounded text-center"
+              style={{
+                backgroundColor: "#fff",
+                border: "1px solid rgba(13, 27, 76, 0.1)",
+                boxShadow: "0 6px 16px rgba(0,0,0,0.06)",
+                minWidth: "180px",
+                transition: "transform 0.3s ease, box-shadow 0.3s ease",
+              }}
+            >
+              <div
+                className="mb-3 achievement-icon d-flex justify-content-center align-items-center mx-auto"
+                style={{
+                  width: "60px",
+                  height: "60px",
+                  borderRadius: "50%",
+                  backgroundColor: "#0D1B4C",
+                  color: "#BFA14A",
+                  fontSize: "1.5rem",
+                }}
+              >
+                {item.icon}
               </div>
-              
-              {/* Laterite Information */}
-              <Row className="text-start mt-5 align-items-center">
-                <Col md={6} className="mb-4">
-                  <img 
-                    src="/images/6a.jpeg"
-                    alt="Laterite" 
-                    className="img-fluid rounded shadow"
-                  />
-                </Col>
-                <Col md={6}>
-                  <Badge bg="primary" className="mb-3 px-3 py-2">OUR SPECIALTY</Badge>
-                  <h3 className="fw-bold mb-3 text-primary">Laterite Mining & Applications</h3>
-                  <p className="text-muted">
-                    Laterite is a soil and rock type rich in iron and aluminum, formed in hot and wet tropical areas. 
-                    It is an essential source of iron ore and is widely used in various industries, particularly in cement production.
-                  </p>
-                  <h5 className="fw-bold mt-4 text-primary">Properties in Cement Production:</h5>
-                  <ul className="text-muted">
-                    <li>High iron content provides the necessary ferrous component for cement</li>
-                    <li>Acts as a fluxing agent, reducing the clinkering temperature</li>
-                    <li>Contributes to the strength and durability of the final product</li>
-                    <li>Cost-effective alternative to traditional iron sources</li>
-                  </ul>
-                
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+              <h3
+                className="fw-bold mb-1"
+                style={{ color: "#BFA14A", fontSize: "1.6rem" }}
+              >
+                {item.value}
+              </h3>
+              <p className="mb-0" style={{ color: "#0D1B4C", fontWeight: 500 }}>
+                {item.label}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        {/* Laterite Section */}
+        <Row className="text-start mt-5 align-items-center">
+          <Col md={6} className="mb-4">
+            <img
+              src="/images/6a.jpeg"
+              alt="Laterite"
+              className="img-fluid rounded shadow"
+              style={{
+                border: "4px solid #BFA14A",
+                borderRadius: "12px",
+              }}
+            />
+          </Col>
+          <Col md={6}>
+            <Badge
+              style={{
+                backgroundColor: "#0D1B4C",
+                color: "#fff",
+              }}
+              className="mb-3 px-3 py-2"
+            >
+              OUR SPECIALTY
+            </Badge>
+            <h3
+              className="fw-bold mb-3"
+              style={{ color: "#0D1B4C" }}
+            >
+              Laterite Mining & Applications
+            </h3>
+            <p className="mb-4" style={{ color: "#555", lineHeight: "1.7" }}>
+              Laterite is a soil and rock type rich in iron and aluminum,
+              formed in hot and wet tropical areas. It is an essential
+              source of iron ore and is widely used in various industries,
+              particularly in cement production.
+            </p>
+            <h5
+              className="fw-bold mb-3"
+              style={{ color: "#BFA14A" }}
+            >
+              Properties in Cement Production:
+            </h5>
+            <ul style={{ color: "#444", lineHeight: "1.6" }}>
+              <li>High iron content provides the necessary ferrous component</li>
+              <li>Acts as a fluxing agent, reducing the clinkering temperature</li>
+              <li>Contributes to strength and durability of the final product</li>
+              <li>Cost-effective alternative to traditional iron sources</li>
+            </ul>
+          </Col>
+        </Row>
+      </Col>
+    </Row>
+  </Container>
+  </section>
 
       {/* Services Preview */}
-      <section className="py-5 bg-primary text-white">
-        <Container>
-          <Row className="justify-content-center mb-5">
-            <Col lg={8} className="text-center">
-              <Badge bg="warning" className="mb-3 px-3 py-2">OUR SERVICES</Badge>
-              <h2 className="fw-bold mb-3">Comprehensive Mining Solutions</h2>
-              <p className="text-light">
-                We offer end-to-end mining services tailored to meet the specific needs of our clients
-              </p>
-            </Col>
-          </Row>
-          
-          <Row>
-            {services.map(service => (
-              <Col lg={4} md={6} className="mb-4" key={service.id}>
-                <Card className="h-100 border-0 shadow service-card">
-                  <Card.Body className="text-center p-5">
-                    <div className="icon-wrapper mb-4">
-                      {service.icon}
-                    </div>
-                    <Card.Title className="h4 text-primary">{service.title}</Card.Title>
-                    <Card.Text className="text-muted mb-4">
-                      {service.description}
-                    </Card.Text>
-                    <Button 
-                      variant="outline-primary" 
-                      onClick={() => handleShowModal({
-                        title: service.title,
-                        content: service.fullDescription
-                      })}
-                    >
-                      Learn More
-                    </Button>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))}
-          </Row>
-        </Container>
-      </section>
+  <section className="py-5" style={{ backgroundColor: "#0D1B4C", color: "#fff" }}>
+  <Container>
+    {/* Section Heading */}
+    <Row className="justify-content-center mb-5">
+      <Col lg={8} className="text-center">
+        <Badge
+          style={{
+            backgroundColor: "transparent",
+            border: "2px solid #BFA14A",
+            color: "#BFA14A",
+            fontWeight: "600",
+            letterSpacing: "1px",
+          }}
+          className="mb-3 px-3 py-2 rounded-pill"
+        >
+          OUR SERVICES
+        </Badge>
+        <h2 className="fw-bold mb-3" style={{ color: "#fff" }}>
+          Comprehensive Mining Solutions
+        </h2>
+        <p className="text-light fs-5">
+          We offer end-to-end mining services tailored to meet the specific needs of our clients
+        </p>
+      </Col>
+    </Row>
+
+    {/* Service Cards */}
+    <Row>
+      {services.map((service) => (
+        <Col lg={4} md={6} className="mb-4" key={service.id}>
+          <Card className="border-0 shadow-sm service-card mx-auto">
+            <Card.Body className="text-center p-4">
+              {/* Icon */}
+              <div className="icon-wrapper mb-3">
+                <div
+                  className="d-inline-flex align-items-center justify-content-center rounded-circle"
+                  style={{
+                    width: "65px",
+                    height: "65px",
+                    backgroundColor: "#fff",
+                    border: "2px solid #BFA14A",
+                    color: "#0D1B4C",
+                    fontSize: "1.5rem",
+                  }}
+                >
+                  {service.icon}
+                </div>
+              </div>
+
+              {/* Title */}
+              <Card.Title
+                className="fw-bold mb-2"
+                style={{ fontSize: "1.15rem", color: "#0D1B4C" }}
+              >
+                {service.title}
+              </Card.Title>
+
+              {/* Description */}
+              <Card.Text
+                className="text-muted mb-3"
+                style={{ fontSize: "0.9rem", lineHeight: "1.5" }}
+              >
+                {service.description}
+              </Card.Text>
+
+              {/* Button */}
+              <Button
+                variant="outline"
+                onClick={() =>
+                  handleShowModal({
+                    title: service.title,
+                    content: service.fullDescription,
+                  })
+                }
+                style={{
+                  borderColor: "#BFA14A",
+                  color: "#BFA14A",
+                  fontWeight: "600",
+                  fontSize: "0.85rem",
+                  padding: "0.4rem 1.2rem",
+                }}
+                className="rounded-pill learn-more-btn"
+              >
+                Learn More
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+      ))}
+    </Row>
+  </Container>
+  </section>
 
       {/* Why Choose Us */}
       <section className="py-5 bg-dark text-white">
@@ -499,41 +631,67 @@ const Home = () => {
       </section>
 
       {/* Founders Section */}
-      <section className="py-5 bg-white" id="Team">
-        <Container>
-          <Row className="justify-content-center mb-5">
-            <Col lg={8} className="text-center">
-              <Badge bg="primary" className="mb-3 px-3 py-2">OUR LEADERSHIP</Badge>
-              <h2 className="fw-bold mb-3 text-primary">Meet Our Founders</h2>
-              <p className="text-muted">
-                The visionary leaders behind PP Minerals' success
+     <section className="py-5 bg-light" id="Team">
+  <Container>
+    {/* Section Heading */}
+    <Row className="justify-content-center mb-5">
+      <Col lg={8} className="text-center">
+        <Badge
+          style={{ backgroundColor: "#BFA14A", color: "#fff" }}
+          className="mb-3 px-3 py-2 fs-6 shadow-sm text-uppercase"
+        >
+          Our Leadership
+        </Badge>
+        <h2 className="fw-bold mb-3 display-6" style={{ color: "#0D1B4C" }}>
+          Meet Our Founders
+        </h2>
+        <p className="text-muted fs-5">
+          The visionary leaders behind{" "}
+          <span style={{ color: "#BFA14A", fontWeight: 600 }}>PP Minerals</span>
+          ' success
+        </p>
+      </Col>
+    </Row>
+
+    {/* Founders List */}
+    <Row className="g-5">
+      {founders.map((founder, index) => (
+        <Col lg={6} key={index}>
+          <div className="d-flex flex-column flex-md-row align-items-center align-items-md-start p-4 bg-white shadow-sm rounded-4 h-100 founder-card">
+            
+            {/* Founder Image */}
+            <div className="me-md-4 mb-3 mb-md-0 text-center text-md-start">
+              <img
+                src={founder.image}
+                alt={founder.name}
+                className="rounded-circle shadow-sm founder-img"
+                style={{
+                  width: "140px",
+                  height: "140px",
+                  objectFit: "cover",
+                  border: "4px solid #BFA14A",
+                }}
+              />
+            </div>
+
+            {/* Founder Details */}
+            <div>
+              <h4 className="fw-bold mb-1" style={{ color: "#0D1B4C" }}>
+                {founder.name}
+              </h4>
+              <h6 className="fw-semibold mb-3" style={{ color: "#BFA14A" }}>
+                {founder.role}
+              </h6>
+              <p className="text-muted mb-0" style={{ lineHeight: "1.6" }}>
+                {founder.description}
               </p>
-            </Col>
-          </Row>
-          
-          <Row>
-            {founders.map((founder, index) => (
-              <Col lg={6} className="mb-5" key={index}>
-                <div className="d-flex flex-column flex-md-row">
-                  <div className="me-md-4 mb-3 mb-md-0">
-                    <img 
-                      src={founder.image} 
-                      alt={founder.name}
-                      className="rounded shadow"
-                      style={{width: '150px', height: '150px', objectFit: 'cover'}}
-                    />
-                  </div>
-                  <div>
-                    <h4 className="text-primary fw-bold">{founder.name}</h4>
-                    <h6 className="text-warning mb-3">{founder.role}</h6>
-                    <p className="text-muted">{founder.description}</p>
-                  </div>
-                </div>
-              </Col>
-            ))}
-          </Row>
-        </Container>
-      </section>
+            </div>
+          </div>
+        </Col>
+      ))}
+    </Row>
+  </Container>
+  </section>
 
       {/* Location Map Section */}
       <section className="py-5 bg-light">
@@ -605,6 +763,8 @@ const Home = () => {
       {/* Add custom CSS for animations */}
       <style>
         {`
+        
+        
           :root {
             --royal-blue: #002147;
             --gold: #FFD700;
@@ -773,6 +933,22 @@ const Home = () => {
           .animate-fadeInUp {
             animation: fadeInUp 1s ease-out forwards;
           }
+
+           .founder-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-top: 3px solid #0D1B4C;
+    }
+    .founder-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 24px rgba(13, 27, 76, 0.15);
+    }
+    .founder-img {
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+    .founder-card:hover .founder-img {
+      transform: scale(1.05);
+      border-color: #0D1B4C;
+    }
         `}
       </style>
     </div>
