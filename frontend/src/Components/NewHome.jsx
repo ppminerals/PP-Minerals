@@ -71,7 +71,7 @@ const Home = () => {
   const founders = [
     {
       name: "Mr. Ajit Kumar Parakh",
-      role: "Founder & CEO",
+      role: "Co-Founder",
       image: "/images/ajit.jpeg",
       description: "The visionary behind PP Minerals, started the firm with a mission to deliver sustainable and reliable mining solutions. His dedication to innovation and client satisfaction has been the driving force behind our success."
     },
@@ -82,14 +82,14 @@ const Home = () => {
       description: "Brings extensive industry expertise and strategic vision to the company, ensuring operational excellence across all mining projects."
     },
     {
-      name: "Prathviraj  Raj",
+      name: "Prathviraj",
       role: "Co-Founder",
       image: "/images/prithvi.jpg",
       description: "Leads our technical operations with deep knowledge of mining processes and commitment to implementing innovative technologies."
     },
     {
       name: "Rhythm Jain",
-      role: "Director & Company Secretary",
+      role: "Co-Founder",
       image: "/images/rytham.jpeg",
       description: "She is a key person in PP Minerals. A company secretary with qualifications in Law and business management. She also serves as director in Nanda Fincap and Partner in Nanda capital holding."
     }
