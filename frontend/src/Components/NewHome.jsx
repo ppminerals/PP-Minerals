@@ -97,7 +97,7 @@ const Home = () => {
 
   const galleryImages = [
     "/images/pp1.jpeg",
-    "/images/2.jpeg",
+    "/images/6a.jpeg",
     "/images/3.jpeg",
     "/images/4.jpeg",
     "/images/5.jpeg",
