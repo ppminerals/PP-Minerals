@@ -8,6 +8,7 @@ const Footer = () => {
       className="text-center text-lg-start mt-auto text-white" 
       style={{ backgroundColor: "#0A1D37" }} 
     >
+      
       <div className="container p-4">
         <div className="row">
 
@@ -15,6 +16,8 @@ const Footer = () => {
           <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
             <h5 style={{ color: "#FFD700" }} className="fw-bold text-uppercase mb-3">
               About
+                    <img src='/images/logo.jpeg' alt='PP Minerals Logo' style={{height: '35px', margin: '35px'}} />
+
             </h5>
             <p className="small">
               PP Minerals is dedicated to providing high-quality mineral products 

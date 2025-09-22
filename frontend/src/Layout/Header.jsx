@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container">
         {/* Brand */}
         <a className="navbar-brand fw-bold text-golden" href="/">
-          PP Minerals
+          <img src='/images/logo.jpeg' alt='PP Minerals Logo' style={{height: '40px', marginRight: '10px'}} />
         </a>
 
         {/* Mobile Toggler */}
