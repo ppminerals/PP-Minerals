@@ -70,19 +70,19 @@ const Home = () => {
 
   const founders = [
     {
-      name: "Mr. Ajit Kumar Parakh",
+      name: "Ajit Kumar Parakh",
       role: "Co-Founder",
-      image: "/images/ajit.jpeg",
+      image: "/images/ajit.png",
       description: "The visionary behind PP Minerals, started the firm with a mission to deliver sustainable and reliable mining solutions. His dedication to innovation and client satisfaction has been the driving force behind our success."
     },
     {
       name: "Ritesh Purohit",
       role: "Co-Founder",
-      image: "/images/ritesh.jpeg",
+      image: "/images/rites.jpeg",
       description: "Brings extensive industry expertise and strategic vision to the company, ensuring operational excellence across all mining projects."
     },
     {
-      name: "Prathviraj",
+      name: "Prathviraj Chauhan",
       role: "Co-Founder",
       image: "/images/prithvi.jpg",
       description: "Leads our technical operations with deep knowledge of mining processes and commitment to implementing innovative technologies."
@@ -91,7 +91,7 @@ const Home = () => {
       name: "Rhythm Jain",
       role: "Co-Founder",
       image: "/images/rytham.jpeg",
-      description: "She is a key person in PP Minerals. A company secretary with qualifications in Law and business management. She also serves as director in Nanda Fincap and Partner in Nanda capital holding."
+      description: "Rhythm Jain is a seasoned professional with expertise in strategic decision-making and customer acquisition. A qualified Company Secretary and Lawyer, she leverages her legal acumen to drive business growth. Her entrepreneurial spirit has paved the way for her to become one of the pioneer women in Mining Industry."
     }
   ];
 
@@ -146,7 +146,7 @@ const Home = () => {
           fade 
           controls={false} 
           indicators={false} 
-          interval={5000}
+          interval={3000}
           onSelect={handleSelect}
           className="hero-carousel"
         >
@@ -154,7 +154,7 @@ const Home = () => {
             <div 
               className="hero-slide d-flex align-items-center"
               style={{ 
-                backgroundImage: `linear-gradient(rgba(0, 33, 71, 0.8), rgba(0, 33, 71, 0.8)),url(/images/pp1.jpeg)`,
+                backgroundImage: `linear-gradient(rgba(0, 33, 71, 0.4), rgba(0, 33, 71, 0.4)),url(/images/pp1.jpeg)`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 height: '100vh'
@@ -190,7 +190,7 @@ const Home = () => {
             <div 
               className="hero-slide d-flex align-items-center"
               style={{ 
-                backgroundImage: `linear-gradient(rgba(0, 33, 71, 0.8), rgba(0, 33, 71, 0.8)), url(images/4.jpeg)`,
+                backgroundImage: `linear-gradient(rgba(0, 33, 71, 0.4), rgba(0, 33, 71, 0.4)), url(images/4.jpeg)`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 height: '100vh'
@@ -216,7 +216,7 @@ const Home = () => {
             <div 
               className="hero-slide d-flex align-items-center"
               style={{ 
-                backgroundImage: `linear-gradient(rgba(0, 33, 71, 0.8), rgba(0, 33, 71, 0.8)),url(/images/6a.jpeg)
+                backgroundImage: `linear-gradient(rgba(0, 33, 71, 0.5), rgba(0, 33, 71, 0.5)),url(/images/6a.jpeg)
 `,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
@@ -299,59 +299,42 @@ const Home = () => {
         >
           Leading the Mining Industry Since 2011
         </h2>
-        <p className="lead mb-4" style={{ color: "#555", lineHeight: "1.7" }}>
-          At{" "}
-          <span style={{ color: "#BFA14A", fontWeight: 600 }}>
-            PP Minerals
-          </span>
-          , we specialize in reliable and sustainable mineral solutions,
-          serving industries with excellence and trust for over a decade.
-          Our commitment to{" "}
-          <span style={{ color: "#0D1B4C", fontWeight: 600 }}>
-            innovation, safety, and environmental responsibility
-          </span>{" "}
-          sets us apart.
-        </p>
+       <p className="lead mb-4" style={{ color: "#555", lineHeight: "1.7" }}>
+  With over{" "}
+  <span style={{ color: "#BFA14A", fontWeight: 600 }}>
+    13 years of expertise
+  </span>{" "}
+  in laterite and other minerals,{" "}
+  <span style={{ color: "#BFA14A", fontWeight: 600 }}>PP Minerals</span> has
+  become a trusted partner to leading{" "}
+  <span style={{ color: "#0D1B4C", fontWeight: 600 }}>
+    cement brands across India
+  </span>
+  . Our premium laterite, known for its{" "}
+  <span style={{ color: "#BFA14A", fontWeight: 600 }}>
+    exceptional Iron and Aluminium content
+  </span>
+  , helps manufacturers reduce dependency on costly raw materials like red
+  ochre and blue dust—delivering{" "}
+  <span style={{ color: "#0D1B4C", fontWeight: 600 }}>
+    significant cost savings
+  </span>{" "}
+  in production. Guided by{" "}
+  <span style={{ color: "#BFA14A", fontWeight: 600 }}>
+    innovation, safety
+  </span>{" "}
+  and{" "}
+  <span style={{ color: "#0D1B4C", fontWeight: 600 }}>
+    environmental responsibility
+  </span>
+  , we continue to provide{" "}
+  <span style={{ color: "#BFA14A", fontWeight: 600 }}>
+    reliable and sustainable mineral solutions
+  </span>{" "}
+  with excellence and trust.
+</p>
 
-        {/* Achievements */}
-        <div className="d-flex justify-content-center gap-4 flex-wrap mb-5">
-          {achievements.map((item, index) => (
-            <div
-              key={index}
-              className="achievement-item p-4 rounded text-center"
-              style={{
-                backgroundColor: "#fff",
-                border: "1px solid rgba(13, 27, 76, 0.1)",
-                boxShadow: "0 6px 16px rgba(0,0,0,0.06)",
-                minWidth: "180px",
-                transition: "transform 0.3s ease, box-shadow 0.3s ease",
-              }}
-            >
-              <div
-                className="mb-3 achievement-icon d-flex justify-content-center align-items-center mx-auto"
-                style={{
-                  width: "60px",
-                  height: "60px",
-                  borderRadius: "50%",
-                  backgroundColor: "#0D1B4C",
-                  color: "#BFA14A",
-                  fontSize: "1.5rem",
-                }}
-              >
-                {item.icon}
-              </div>
-              <h3
-                className="fw-bold mb-1"
-                style={{ color: "#BFA14A", fontSize: "1.6rem" }}
-              >
-                {item.value}
-              </h3>
-              <p className="mb-0" style={{ color: "#0D1B4C", fontWeight: 500 }}>
-                {item.label}
-              </p>
-            </div>
-          ))}
-        </div>
+       
 
         {/* Laterite Section */}
         <Row className="text-start mt-5 align-items-center">
@@ -407,99 +390,123 @@ const Home = () => {
   </Container>
   </section>
 
-      {/* Services Preview */}
-  <section className="py-5" style={{ backgroundColor: "#0D1B4C", color: "#fff" }}>
+
+
+      {/* Image Gallery Section */}
+      <section className="py-5 bg-light">
+        <Container>
+          <Row className="justify-content-center mb-5">
+            <Col lg={8} className="text-center">
+              <Badge bg="primary" className="mb-3 px-3 py-2 rounded-pill">OUR OPERATIONS</Badge>
+              <h2 className="fw-bold mb-3 text-primary">Mining Excellence in Action</h2>
+              <p className="text-muted">
+                A glimpse into our mining operations and facilities
+              </p>
+            </Col>
+          </Row>
+          
+          <Row className="mb-4">
+            {galleryImages.slice(0, 3).map((img, index) => (
+              <Col md={4} className="mb-4" key={index}>
+                <div className="gallery-item overflow-hidden rounded shadow">
+                  <img 
+                    src={img} 
+                    alt={`Mining operation ${index + 1}`} 
+                    className="img-fluid w-100 h-100 object-fit-cover"
+                    style={{transition: 'transform 0.3s ease'}}
+                    onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
+                    onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                  />
+                </div>
+              </Col>
+            ))}
+          </Row>
+          <Row>
+            {galleryImages.slice(3, 6).map((img, index) => (
+              <Col md={4} className="mb-4" key={index}>
+                <div className="gallery-item overflow-hidden rounded shadow">
+                  <img 
+                    src={img} 
+                    alt={`Mining operation ${index + 4}`} 
+                    className="img-fluid w-100 h-100 object-fit-cover"
+                    style={{transition: 'transform 0.3s ease'}}
+                    onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
+                    onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                  />
+                </div>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+      </section>
+
+      {/* Founders Section */}
+    <section className="py-5 bg-light" id="Team">
   <Container>
     {/* Section Heading */}
     <Row className="justify-content-center mb-5">
       <Col lg={8} className="text-center">
         <Badge
-          style={{
-            backgroundColor: "transparent",
-            border: "2px solid #BFA14A",
-            color: "#ffffffff",
-            fontWeight: "600",
-            letterSpacing: "1px",
-          }}
-          className="mb-3 px-3 py-2 rounded-pill"
+          style={{ backgroundColor: "#BFA14A", color: "#fff" }}
+          className="mb-3 px-3 py-2 fs-6 shadow-sm text-uppercase rounded-pill"
         >
-          OUR SERVICES
+          Our Leadership
         </Badge>
-        <h2 className="fw-bold mb-3" style={{ color: "#fff" }}>
-          Comprehensive Mining Solutions
+        <h2 className="fw-bold mb-3 display-6" style={{ color: "#0D1B4C" }}>
+          Meet Our Founders
         </h2>
-        <p className="text-light fs-5">
-          We offer end-to-end mining services tailored to meet the specific needs of our clients
+        <p className="text-muted fs-5">
+          The visionary leaders behind{" "}
+          <span style={{ color: "#BFA14A", fontWeight: 600 }}>PP Minerals</span>
+          ' success
         </p>
       </Col>
     </Row>
 
-    {/* Service Cards */}
-    <Row>
-      {services.map((service) => (
-        <Col lg={4} md={6} className="mb-4" key={service.id}>
-          <Card className="border-0 shadow-sm service-card mx-auto">
-            <Card.Body className="text-center p-4">
-              {/* Icon */}
-              <div className="icon-wrapper mb-3">
-                <div
-                  className="d-inline-flex align-items-center justify-content-center rounded-circle"
-                  style={{
-                    width: "65px",
-                    height: "65px",
-                    backgroundColor: "#fff",
-                    border: "2px solid #BFA14A",
-                    color: "#0D1B4C",
-                    fontSize: "1.5rem",
-                  }}
-                >
-                  {service.icon}
-                </div>
-              </div>
-
-              {/* Title */}
-              <Card.Title
-                className="fw-bold mb-2"
-                style={{ fontSize: "1.15rem", color: "#0D1B4C" }}
-              >
-                {service.title}
-              </Card.Title>
-
-              {/* Description */}
-              <Card.Text
-                className="text-muted mb-3"
-                style={{ fontSize: "0.9rem", lineHeight: "1.5" }}
-              >
-                {service.description}
-              </Card.Text>
-
-              {/* Button */}
-              <Button
-                variant="outline"
-                onClick={() =>
-                  handleShowModal({
-                    title: service.title,
-                    content: service.fullDescription,
-                  })
-                }
+    {/* Founders List */}
+    <Row className="g-4 g-md-5">
+      {founders.map((founder, index) => (
+        <Col xs={12} md={6} key={index}>
+          <div
+            className="d-flex flex-column flex-md-row align-items-center align-items-md-start p-4 bg-white shadow-sm rounded-4 h-100 founder-card"
+            style={{ minHeight: "100%" }}
+          >
+            {/* Founder Image */}
+            <div className="me-md-4 mb-3 mb-md-0 text-center text-md-start">
+              <img
+                src={founder.image}
+                alt={founder.name}
+                className="rounded-circle shadow-sm founder-img"
                 style={{
-                  borderColor: "#BFA14A",
-                  color: "#BFA14A",
-                  fontWeight: "600",
-                  fontSize: "0.85rem",
-                  padding: "0.4rem 1.2rem",
+                  width: "120px",
+                  height: "120px",
+                  objectFit: "cover",
+                  border: "4px solid #BFA14A",
                 }}
-                className="rounded-pill learn-more-btn"
-              >
-                Learn More
-              </Button>
-            </Card.Body>
-          </Card>
+              />
+            </div>
+
+            {/* Founder Details */}
+            <div className="text-center text-md-start">
+              <h4 className="fw-bold mb-1" style={{ color: "#0D1B4C" }}>
+                {founder.name}
+              </h4>
+              <h6 className="fw-semibold mb-3" style={{ color: "#BFA14A" }}>
+                {founder.role}
+              </h6>
+              <p className="text-muted mb-0" style={{ lineHeight: "1.6" }}>
+                {founder.description}
+              </p>
+            </div>
+          </div>
         </Col>
       ))}
     </Row>
   </Container>
-  </section>
+</section>
+
+
+     
 
       {/* Why Choose Us */}
       <section className="py-5 bg-dark text-white">
@@ -588,117 +595,6 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-
-      {/* Image Gallery Section */}
-      <section className="py-5 bg-light">
-        <Container>
-          <Row className="justify-content-center mb-5">
-            <Col lg={8} className="text-center">
-              <Badge bg="primary" className="mb-3 px-3 py-2 rounded-pill">OUR OPERATIONS</Badge>
-              <h2 className="fw-bold mb-3 text-primary">Mining Excellence in Action</h2>
-              <p className="text-muted">
-                A glimpse into our mining operations and facilities
-              </p>
-            </Col>
-          </Row>
-          
-          <Row className="mb-4">
-            {galleryImages.slice(0, 3).map((img, index) => (
-              <Col md={4} className="mb-4" key={index}>
-                <div className="gallery-item overflow-hidden rounded shadow">
-                  <img 
-                    src={img} 
-                    alt={`Mining operation ${index + 1}`} 
-                    className="img-fluid w-100 h-100 object-fit-cover"
-                    style={{transition: 'transform 0.3s ease'}}
-                    onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
-                    onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
-                  />
-                </div>
-              </Col>
-            ))}
-          </Row>
-          <Row>
-            {galleryImages.slice(3, 6).map((img, index) => (
-              <Col md={4} className="mb-4" key={index}>
-                <div className="gallery-item overflow-hidden rounded shadow">
-                  <img 
-                    src={img} 
-                    alt={`Mining operation ${index + 4}`} 
-                    className="img-fluid w-100 h-100 object-fit-cover"
-                    style={{transition: 'transform 0.3s ease'}}
-                    onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
-                    onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
-                  />
-                </div>
-              </Col>
-            ))}
-          </Row>
-        </Container>
-      </section>
-
-      {/* Founders Section */}
-     <section className="py-5 bg-light" id="Team">
-  <Container>
-    {/* Section Heading */}
-    <Row className="justify-content-center mb-5">
-      <Col lg={8} className="text-center">
-        <Badge
-          style={{ backgroundColor: "#BFA14A", color: "#fff" }}
-          className="mb-3 px-3 py-2 fs-6 shadow-sm text-uppercase rounded-pill"
-        >
-          Our Leadership
-        </Badge>
-        <h2 className="fw-bold mb-3 display-6" style={{ color: "#0D1B4C" }}>
-          Meet Our Founders
-        </h2>
-        <p className="text-muted fs-5">
-          The visionary leaders behind{" "}
-          <span style={{ color: "#BFA14A", fontWeight: 600 }}>PP Minerals</span>
-          ' success
-        </p>
-      </Col>
-    </Row>
-
-    {/* Founders List */}
-    <Row className="g-5">
-      {founders.map((founder, index) => (
-        <Col lg={6} key={index}>
-          <div className="d-flex flex-column flex-md-row align-items-center align-items-md-start p-4 bg-white shadow-sm rounded-4 h-100 founder-card">
-            
-            {/* Founder Image */}
-            <div className="me-md-4 mb-3 mb-md-0 text-center text-md-start">
-              <img
-                src={founder.image}
-                alt={founder.name}
-                className="rounded-circle shadow-sm founder-img"
-                style={{
-                  width: "140px",
-                  height: "140px",
-                  objectFit: "cover",
-                  border: "4px solid #BFA14A",
-                }}
-              />
-            </div>
-
-            {/* Founder Details */}
-            <div>
-              <h4 className="fw-bold mb-1" style={{ color: "#0D1B4C" }}>
-                {founder.name}
-              </h4>
-              <h6 className="fw-semibold mb-3" style={{ color: "#BFA14A" }}>
-                {founder.role}
-              </h6>
-              <p className="text-muted mb-0" style={{ lineHeight: "1.6" }}>
-                {founder.description}
-              </p>
-            </div>
-          </div>
-        </Col>
-      ))}
-    </Row>
-  </Container>
-  </section>
 
       {/* Location Map Section */}
       <section className="py-5 bg-light">
