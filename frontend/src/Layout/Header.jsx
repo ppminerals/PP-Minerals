@@ -43,10 +43,11 @@ const Header = () => {
           </ul>
 
           {/* Contact Info */}
-          <div className="mt-3 mt-lg-0 d-flex align-items-center ms-lg-4">
+          <div className="mt-3 mt-lg-0 align-items-center ms-lg-4">
             <span className="me-3 contact-info">
-              📞 +91 98290 39880
+              📞 +91 9829039880
             </span>
+            <br/>
             <span className="contact-info">
               ✉️ info@ppminerals.org.in
             </span>
