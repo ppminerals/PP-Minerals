@@ -91,7 +91,7 @@ const Home = () => {
       name: "Rhythm Jain",
       role: "Co-Founder",
       image: "/images/rytham.jpeg",
-      description: "Rhythm Jain is a seasoned professional with expertise in strategic decision-making and customer acquisition. A qualified Company Secretary and Lawyer, she leverages her legal acumen to drive business growth. Her entrepreneurial spirit has paved the way for her to become one of the pioneer women in Mining Industry."
+      description: "Rhythm Jain is a seasoned professional with expertise in strategic decision-making and customer acquisition. As a qualified Company Secretary and Lawyer, she leverages her legal acumen to drive business growth. With a passion for investing and venture capital, she serves as a Director and Partner in prominent finance and venture capital firms in India. Her entrepreneurial spirit has paved the way for her to become one of the pioneer women in Mining Industry."
     }
   ];
 

@@ -48,7 +48,7 @@ const Header = () => {
               📞 +91 98290 39880
             </span>
             <span className="contact-info">
-              ✉️ info@ppminerals.com
+              ✉️ info@ppminerals.org.in
             </span>
           </div>
         </div>
