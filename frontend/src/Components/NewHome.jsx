@@ -291,7 +291,7 @@ const Home = () => {
           }}
           className="mb-3 px-3 py-2 rounded-pill"
         >
-          ABOUT PP Minerals
+          ABOUT PP MINERALS 
         </Badge>
         <h2
           className="fw-bold mb-4"
