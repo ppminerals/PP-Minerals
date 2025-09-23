@@ -13,12 +13,13 @@ const Footer = () => {
         <div className="row">
 
           {/* Column 1 - About */}
-          <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <h5 style={{ color: "#FFD700" }} className="fw-bold text-uppercase mb-3">
-              About
-                    <img src='/images/logo.jpeg' alt='PP Minerals Logo' style={{height: '35px', margin: '35px'}} />
+          <div className="col-lg-4 col-md-6 mb-3 mb-md-0">
 
+            <h5 style={{ color: "#FFD700"}} className="fw-bold text-uppercase" >
+              About
             </h5>
+            <br/>
+            <img src='/images/logo.jpeg' alt='PP Minerals Logo' style={{height: '50px',}} />
             <p className="small">
               PP Minerals is dedicated to providing high-quality mineral products 
               with a commitment to excellence and sustainability.

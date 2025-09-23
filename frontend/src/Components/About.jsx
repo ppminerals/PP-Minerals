@@ -55,7 +55,7 @@ const Services = () => {
   ];
 
   const lateriteProperties = [
-    { property: "Iron Content", value: "High (40-50%)", importance: "Essential for cement production" },
+    { property: "Iron Content", value: "(50-60%)", importance: "Essential for cement production" },
     { property: "Aluminum Content", value: "Moderate to High", importance: "Contributes to pozzolanic properties" },
     { property: "Nickel Content", value: "Varies by deposit", importance: "Valuable for metallurgical applications" },
     { property: "Porosity", value: "High", importance: "Good for construction materials" },

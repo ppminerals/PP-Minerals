@@ -84,7 +84,7 @@ const Home = () => {
     {
       name: "Prathviraj Chauhan",
       role: "Co-Founder",
-      image: "/images/prithvi.jpg",
+      image: "/images/prithvi.png ",
       description: "Leads our technical operations with deep knowledge of mining processes and commitment to implementing innovative technologies."
     },
     {
@@ -300,9 +300,9 @@ const Home = () => {
           Leading the Mining Industry Since 2011
         </h2>
        <p className="lead mb-4" style={{ color: "#555", lineHeight: "1.7" }}>
-  With over{" "}
+  Industry presence{" "}
   <span style={{ color: "#BFA14A", fontWeight: 600 }}>
-    13 years of expertise
+    since 2011
   </span>{" "}
   in laterite and other minerals,{" "}
   <span style={{ color: "#BFA14A", fontWeight: 600 }}>PP Minerals</span> has
@@ -644,6 +644,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+    
 
       {/* Service Detail Modal */}
       <Modal show={showModal} onHide={handleCloseModal} centered>
