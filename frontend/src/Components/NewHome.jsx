@@ -71,7 +71,7 @@ const Home = () => {
   const founders = [
     {
       name: "Ajit Kumar Parakh",
-      role: "Co-Founder",
+      role: "Founder",
       image: "/images/ajit.png",
       description: "The visionary behind PP Minerals, started the firm with a mission to deliver sustainable and reliable mining solutions. His dedication to innovation and client satisfaction has been the driving force behind our success."
     },
@@ -537,7 +537,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div>
-                  <h4>13+ Years of Experience</h4>
+                  <h4>Decades of Experience in Mining</h4>
                   <p className="text-light">
                     Over a decade of industry knowledge and expertise ensure we deliver the best solutions.
                   </p>
