@@ -301,9 +301,9 @@ const Home = () => {
         </h2>
        <p className="lead mb-4" style={{ color: "#555", lineHeight: "1.7" }}>
   Industry presence{" "}
-  <span style={{ color: "#BFA14A", fontWeight: 600 }}>
+  {/* <span style={{ color: "#BFA14A", fontWeight: 600 }}>
     since 2011
-  </span>{" "}
+  </span>{" "} */}
   in laterite and other minerals,{" "}
   <span style={{ color: "#BFA14A", fontWeight: 600 }}>PP Minerals</span> has
   become a trusted partner to leading{" "}
