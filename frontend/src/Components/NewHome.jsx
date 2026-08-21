@@ -297,7 +297,7 @@ const Home = () => {
           className="fw-bold mb-4"
           style={{ color: "#0D1B4C" }}
         >
-          Leading the Mining Industry from Decades
+    Built on a Decade of Trust & Industrial Excellence
         </h2>
        <p className="lead mb-4" style={{ color: "#555", lineHeight: "1.7" }}>
   Industry presence{" "}
@@ -509,92 +509,110 @@ const Home = () => {
      
 
       {/* Why Choose Us */}
-      <section className="py-5 bg-dark text-white">
-        <Container>
-          <Row className="justify-content-center mb-5">
-            <Col lg={8} className="text-center">
-              <Badge style={{
+    <section className="py-5 bg-dark text-white">
+  <Container>
+    <Row className="justify-content-center mb-5">
+      <Col lg={8} className="text-center">
+        <Badge 
+          style={{
             backgroundColor: "transparent",
             border: "2px solid #BFA14A",
-            color: "#ffffffff",
+            color: "#ffffff",
             fontWeight: "600",
             letterSpacing: "1px",
           }}
-           className="mb-3 px-3 py-2 rounded-pill">WHY CHOOSE US</Badge>
-              <h2 className="fw-bold mb-3">Excellence in Every Operation</h2>
-              <p className="text-light">
-                Our commitment to quality, safety, and sustainability makes us the preferred choice
-              </p>
-            </Col>
-          </Row>
-          
-          <Row>
-            <C ol md={6} className="mb-4">
-              <div className="d-flex">
-                <div className="me-4">
-                  <div className="bg-warning rounded-circle d-flex align-items-center justify-content-center" style={{width: '50px', height: '50px'}}>
-                    <span className="text-dark fw-bold">✓</span>
-                  </div>
-                </div>
-                <div>
-                  <h4>Decades of Experience in Mining</h4>
-                  <p className="text-light">
-                    Over a decade of industry knowledge and expertise ensure we deliver the best solutions.
-                  </p>
-                </div>
-              </div>
-            </C>
-            
-            <Col md={6} className="mb-4">
-              <div className="d-flex">
-                <div className="me-4">
-                  <div className="bg-warning rounded-circle d-flex align-items-center justify-content-center" style={{width: '50px', height: '50px'}}>
-                    <span className="text-dark fw-bold">✓</span>
-                  </div>
-                </div>
-                <div>
-                  <h4>Trusted & Reliable Partnerships</h4>
-                  <p className="text-light">
-                    We build long-term relationships based on trust and mutual success.
-                  </p>
-                </div>
-              </div>
-            </Col>
-            
-            <Col md={6} className="mb-4">
-              <div className="d-flex">
-                <div className="me-4">
-                  <div className="bg-warning rounded-circle d-flex align-items-center justify-content-center" style={{width: '50px', height: '50px'}}>
-                    <span className="text-dark fw-bold">✓</span>
-                  </div>
-                </div>
-                <div>
-                  <h4>Quality Assurance Guaranteed</h4>
-                  <p className="text-light">
-                    Rigorous quality control processes ensure the highest standards are met.
-                  </p>
-                </div>
-              </div>
-            </Col>
-            
-            <Col md={6} className="mb-4">
-              <div className="d-flex">
-                <div className="me-4">
-                  <div className="bg-warning rounded-circle d-flex align-items-center justify-content-center" style={{width: '50px', height: '50px'}}>
-                    <span className="text-dark fw-bold">✓</span>
-                  </div>
-                </div>
-                <div>
-                  <h4>On-time Delivery, Every Time</h4>
-                  <p className="text-light">
-                    Our efficient logistics ensure your materials arrive when you need them.
-                  </p>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+          className="mb-3 px-3 py-2 rounded-pill"
+        >
+          THE PP MINERALS ADVANTAGE
+        </Badge>
+        <h2 className="fw-bold mb-3" style={{ color: "#ffffff" }}>
+          Uncompromised Quality & Operational Precision
+        </h2>
+        <p className="text-light fs-5">
+          Empowering cement manufacturing through strategic mineral purity, robust logistics, and proven industry reliability.
+        </p>
+      </Col>
+    </Row>
+    
+    <Row>
+      <Col md={6} className="mb-4">
+        <div className="d-flex">
+          <div className="me-4">
+            <div 
+              className="bg-warning rounded-circle d-flex align-items-center justify-content-center" 
+              style={{ width: '50px', height: '50px', flexShrink: 0 }}
+            >
+              <span className="text-dark fw-bold fs-5">✓</span>
+            </div>
+          </div>
+          <div>
+            <h4 className="fw-bold text-white mb-2">Proven Track Record in Extraction</h4>
+            <p className="text-light mb-0" style={{ lineHeight: "1.6" }}>
+              Over a decade of deep domain expertise ensuring optimal mineral recovery and strict compliance with industrial standards.
+            </p>
+          </div>
+        </div>
+      </Col>
+      
+      <Col md={6} className="mb-4">
+        <div className="d-flex">
+          <div className="me-4">
+            <div 
+              className="bg-warning rounded-circle d-flex align-items-center justify-content-center" 
+              style={{ width: '50px', height: '50px', flexShrink: 0 }}
+            >
+              <span className="text-dark fw-bold fs-5">✓</span>
+            </div>
+          </div>
+          <div>
+            <h4 className="fw-bold text-white mb-2">Strategic Industry Alliances</h4>
+            <p className="text-light mb-0" style={{ lineHeight: "1.6" }}>
+              We foster long-term commercial relationships with top-tier cement manufacturers based on trust and strategic cost efficiency.
+            </p>
+          </div>
+        </div>
+      </Col>
+      
+      <Col md={6} className="mb-4">
+        <div className="d-flex">
+          <div className="me-4">
+            <div 
+              className="bg-warning rounded-circle d-flex align-items-center justify-content-center" 
+              style={{ width: '50px', height: '50px', flexShrink: 0 }}
+            >
+              <span className="text-dark fw-bold fs-5">✓</span>
+            </div>
+          </div>
+          <div>
+            <h4 className="fw-bold text-white mb-2">High-Grade Mineral Assurance</h4>
+            <p className="text-light mb-0" style={{ lineHeight: "1.6" }}>
+              Rigorously tested laterite rich in essential Iron and Aluminium content, providing a reliable alternative to red ochre and blue dust.
+            </p>
+          </div>
+        </div>
+      </Col>
+      
+      <Col md={6} className="mb-4">
+        <div className="d-flex">
+          <div className="me-4">
+            <div 
+              className="bg-warning rounded-circle d-flex align-items-center justify-content-center" 
+              style={{ width: '50px', height: '50px', flexShrink: 0 }}
+            >
+              <span className="text-dark fw-bold fs-5">✓</span>
+            </div>
+          </div>
+          <div>
+            <h4 className="fw-bold text-white mb-2">Seamless Supply Chain Operations</h4>
+            <p className="text-light mb-0" style={{ lineHeight: "1.6" }}>
+              Streamlined transportation channels and dispatch management ensuring uninterrupted production cycles for your plants.
+            </p>
+          </div>
+        </div>
+      </Col>
+    </Row>
+  </Container>
+</section>
 
       {/* Location Map Section */}
       <section className="py-5 bg-light">
