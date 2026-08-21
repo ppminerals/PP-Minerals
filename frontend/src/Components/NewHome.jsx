@@ -297,7 +297,7 @@ const Home = () => {
           className="fw-bold mb-4"
           style={{ color: "#0D1B4C" }}
         >
-          Leading the Mining Industry Since 2011
+          Leading the Mining Industry from Decades
         </h2>
        <p className="lead mb-4" style={{ color: "#555", lineHeight: "1.7" }}>
   Industry presence{" "}
@@ -529,7 +529,7 @@ const Home = () => {
           </Row>
           
           <Row>
-            <Col md={6} className="mb-4">
+            <C ol md={6} className="mb-4">
               <div className="d-flex">
                 <div className="me-4">
                   <div className="bg-warning rounded-circle d-flex align-items-center justify-content-center" style={{width: '50px', height: '50px'}}>
@@ -543,7 +543,7 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-            </Col>
+            </C>
             
             <Col md={6} className="mb-4">
               <div className="d-flex">
